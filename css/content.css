@@ -17,6 +17,7 @@
 	src: url('fonts/MultiroundPro.otf');
 }
 
+
 .page {
 	margin: 15px;
 	margin-bottom: 75px;
@@ -72,4 +73,51 @@ h2 {
 
 .content a {
 	text-decoration: underline;
+}
+
+#generatorForm {
+	display: flex;
+	justify-content: center;
+    position: absolute;
+    height: 80vh;
+    width: 80vw;
+	margin-top: 10px;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+    border: solid 2px rgba(0, 0, 0, 0.616);
+	border-radius: 15px;
+
+    visibility: hidden;
+}
+
+.generatorForm__box {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.generatorForm__item {
+	height: 35px;
+	width: 100%;
+}
+
+#addCardButton {
+	background-color: rgb(255, 255, 255);
+	font-family: 'font_1-bold';
+    font-size: 100%;
+    border: solid 2px rgba(0, 0, 0, 0.616);
+    width: 100%;
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+	border-radius: 15px;
+}
+
+#addCardButton:hover {
+	font-size: 103%;
+}
+
+#addCardButton:active {
+	background-color: rgb(243, 243, 243);
+	border: solid 2px rgba(0, 0, 0, 0.671);
 }
